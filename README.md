@@ -39,8 +39,8 @@ Welcome to the Canvas Editor project! This project is a simple, interactive canv
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/canvas-editor.git
-   cd canvas-editor
+   git clone https://github.com/rahulkushwaha-in/zocket.git
+   cd zocket
 2. **Install Dependencies:**
    ```bash
    npm install
