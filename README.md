@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Canvas Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Canvas Editor project! This project is a simple, interactive canvas editor built with vanilla HTML Canvas, React (functional components), and Tailwind CSS. Users can select an image to be placed within a mask on the canvas, change the caption text and call-to-action (CTA) with text inputs, and customize the background color of the template. The project leverages OOP principles and does not use any libraries like fabric.js for canvas manipulation.
 
-## Available Scripts
+<h2>Project Screenshots:</h2>
 
-In the project directory, you can run:
+<img src="./screenshots/img1.png" alt="project-screenshot" width="400" height="400/">
 
-### `npm start`
+<img src="./screenshots/img2.png" alt="project-screenshot" width="400" height="400/">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="./screenshots/img3.png" alt="project-screenshot" width="400" height="400/">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Template Data](#template-data)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Interactive Canvas Editor**: Users can interact with the canvas to add and edit text, images, and background color.
+- **Caption and CTA Text Editing**: Users can change the caption and CTA text, position, font size, alignment, and color.
+- **Image Masking**: Users can select an image to be placed within a predefined mask area.
+- **Customizable Background**: Users can change the background color of the template.
+- **Persisted Colors**: The last 5 picked colors are shown for easy re-selection.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling the application.
+- **HTML Canvas**: For drawing and manipulating the canvas elements.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup and Installation
 
-### `npm run eject`
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/canvas-editor.git
+   cd canvas-editor
+2. **Install Dependencies:**
+   ```bash
+   npm install
+3. **Run the Application:**
+   ```bash
+   npm start
+4. **Open in Browser:**
+  Open your browser and navigate to http://localhost:3000
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Upload Image:** Click on the image upload button to select an image for the canvas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Edit Caption:** Use the text input to change the caption text. Adjust its position, font size, alignment, and color as needed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Edit CTA:** Similarly, use the text input to change the CTA text. Customize its position, font size, alignment, and color.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Change Background Color:** Select a color from the color picker to change the canvas background.
