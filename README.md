@@ -4,11 +4,11 @@ Welcome to the Canvas Editor project! This project is a simple, interactive canv
 
 <h2>Project Screenshots:</h2>
 
-<img src="./screenshots/img1.png" alt="project-screenshot" width="400" height="400/">
+<img src="./screenshots/img1.png" alt="project-screenshot" height="400/">
 
-<img src="./screenshots/img2.png" alt="project-screenshot" width="400" height="400/">
+<img src="./screenshots/img2.png" alt="project-screenshot" height="400/">
 
-<img src="./screenshots/img3.png" alt="project-screenshot" width="400" height="400/">
+<img src="./screenshots/img3.png" alt="project-screenshot" height="400/">
 
 ## Table of Contents
 
